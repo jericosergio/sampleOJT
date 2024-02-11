@@ -17,6 +17,7 @@ Coded by www.creative-tim.com
     <?php echo $header; ?>
     <?php echo $side; ?>
     <div class="main-panel">
+        <?php echo $headNav;?>
         <?php echo $middle; ?>
     </div>
     <?php echo $footer;?>

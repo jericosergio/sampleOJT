@@ -1,13 +1,13 @@
 <div class="sidebar" data-color="white" data-active-color="danger">
   <div class="logo">
-    <a href="https://www.creative-tim.com" class="simple-text logo-mini">
+    <a href="#" class="simple-text logo-mini">
       <div class="logo-image-small">
-        <img src="assets/img/logo-small.png">
+        <img src="<?php echo base_url('assets/img/logo-small.png'); ?>">
       </div>
       <!-- <p>CT</p> -->
     </a>
-    <a href="https://www.creative-tim.com" class="simple-text logo-normal">
-      Creative Tim
+    <a href="#" class="simple-text logo-normal">
+      OJT SYSTEM
       <!-- <div class="logo-image-big">
         <img src="../assets/img/logo-big.png">
       </div> -->
@@ -16,51 +16,54 @@
   <div class="sidebar-wrapper">
     <ul class="nav">
       <li class="active ">
-        <a href="/dashboard.html">
+        <a href="<?php echo base_url('index.php/Admin/Dashboard'); ?>">
           <i class="nc-icon nc-bank"></i>
           <p>Dashboard</p>
         </a>
       </li>
       <li>
-        <a href="/icons.html">
+        <a href="<?php echo base_url('index.php/Admin/Table_View'); ?>">
+          <i class="nc-icon nc-tile-56"></i>
+          <p>Table View</p>
+        </a>
+      </li>
+      <li>
+      <a href="<?php echo base_url('index.php/Admin/Icons'); ?>">
           <i class="nc-icon nc-diamond"></i>
           <p>Icons</p>
         </a>
       </li>
       <li>
-        <a href="/map.html">
+      <a href="#">
           <i class="nc-icon nc-pin-3"></i>
           <p>Maps</p>
         </a>
       </li>
       <li>
-        <a href="/notifications.html">
+      <a href="#">
           <i class="nc-icon nc-bell-55"></i>
           <p>Notifications</p>
         </a>
       </li>
       <li>
-        <a href="/user.html">
+      <a href="#">
           <i class="nc-icon nc-single-02"></i>
           <p>User Profile</p>
         </a>
       </li>
       <li>
-        <a href="/tables.html">
-          <i class="nc-icon nc-tile-56"></i>
-          <p>Table List</p>
-        </a>
-      </li>
+      
       <li>
-        <a href="/typography.html">
+      <a href="#">
           <i class="nc-icon nc-caps-small"></i>
           <p>Typography</p>
         </a>
       </li>
       <li class="active-pro">
-        <a href="/upgrade.html">
+        <a href="#">
           <i class="nc-icon nc-spaceship"></i>
-          <p>Upgrade to PRO</p>
+          <p>Add more</p>
+          <!-- and add a php logic to show for users access -->
         </a>
       </li>
     </ul>
